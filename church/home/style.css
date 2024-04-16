@@ -1,0 +1,44 @@
+body{
+    background-color:darkgray;
+}
+.about{
+    flex-wrap: wrap;
+    border:3px solid white;
+    text-align: center;
+    margin-top:70px;
+    width:90%;
+    justify-items: center;
+    align-content: center;
+    margin-left:50px;
+    font-size: larger;
+
+}
+h1{
+    background-color: aliceblue;
+}
+h2{
+    background-color: white;
+    display:inline-block;
+}
+.contact{
+    text-align: center;
+    flex-wrap: wrap;
+    margin-top:40px;
+    width:90%;
+    justify-items: center;
+    align-content: center;
+    margin-left:50px;
+    border:3px solid white;
+    text-transform: capitalize;
+    font-size: larger;
+  
+}
+h3{
+    background-color: white;
+    display:inline-block;
+}
+a:hover{
+    color:aliceblue;
+    cursor:pointer;
+    text-decoration:none;
+}
