@@ -38,8 +38,7 @@
     <div class="title3">
         <h2>Join Our Church</h2>
     </div>
-    <form action="https://api.web3forms.com/submit" method="POST" class="form1" id="joined">
-        <input type="hidden" name="access_key" value="38d00bc3-8212-4be6-a986-d430772c352d">
+    <form class="form1" id="joined">
         <div class="name">
             <label>Name</label>
             <input type="text" required autocomplete="off">
@@ -53,7 +52,7 @@
             <input type="tel" minlength="11" required autocomplete="off">
         </div>
         <div class="sub">
-            <input type="submit" value="Join" onclick="join()">
+            <button onclick="join()">Join</button>
         </div>
     </form>
 </div>
@@ -82,8 +81,7 @@
 <div class="title5">
     <h2>Contact Us</h2>
 </div>
-<form action="https://api.web3forms.com/submit" method="POST" class="form2">
-    <input type="hidden" name="access_key" value="38d00bc3-8212-4be6-a986-d430772c352d">
+<form class="form2">
 <div class="det1">
     <input type="text" placeholder="Your Name" required autocomplete="off">
 </div>
@@ -97,7 +95,7 @@
 <textarea rows="7" placeholder="Your Text" required autocomplete="off"></textarea>
 </div>
 <div class="det5">
-    <button onclick="contact()">Send</button>
+   <button onclick="contact()">Send</button>
 </div>
 </form>
 </div>
