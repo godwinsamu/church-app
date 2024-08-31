@@ -3,91 +3,120 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>New Begin Memorial church</title>
-    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
 </head>
+<link rel="stylesheet" href="style.css">
 <body>
-    <div class="container">
-        <nav>
-            <h1>New begin memorial church</h1>
-            <ul>
-                <li><a href="#Home">Home</a></li>
-                <li><a href="#membership">Membership</a></li>
-                <li><a href="#Events">events</a></li>
-                <li><a href="#contact-us">contact</a></li>
-            </ul>
-        </nav>
-    </div>
-    <div class="home">
-    <div class="image">
-        <img src="s4.jpg" >
+    <div class="app">
+    <nav class="navbar">
+        <div class="title">
+            <h1>CSI Bishop New Begin Church </h1>
         </div>
-        <div class="homepage" id="Home">
-        <h1>CSI New Begin Church</h1>
-        <br><p>CSI churches to play significant roles in 
-            their communities, providing spiritual
-             guidance, conducting worship services,
-              and engaging in various social outreach 
-              programs.
-            St. Andrew's Church, being part of 
-            the Church of South India (CSI),
-             likely reflects the denomination's 
-             ethos, which is a union of several 
-             Protestant denominations including 
-             Anglican, Methodist, Congregational, 
-             Presbyterian, and Reformed traditions. 
-             These churches often contribute to the 
-             social, educational, and spiritual 
-             development of the areas they serve.
+        <ul class="navlinks">
+<li><a href="#about">About</a></li>
+<li><a href="#join">Join</a></li>
+<li><a href="#events">Event</a></li>
+<li><a href="#contact">Contact</a></li>
+        </ul>
+        <div class="symbol">
+            <div class="lines"></div>
+            <div class="lines"></div>
+            <div class="lines"></div>
+        </div>
+    </nav>
+<div class="about" id="about">
+    <div class="title2">
+        <h2>About Us</h2>
     </div>
+    <img src="s4.jpg">
+    <p class="p1">The birth of the CSI on Saturday, September 27, 1947, should have taken place in the St. George's Cathedral Madras, for it was from here that the initiative in this direction and to this end was taken and pressed forward.
+        Thus it was that the Anglican Diocese of Madras in the Church of South India, with Bishop Hollis it first CSI Bishop.
+        The new CSI Diocese of Madras was a compact area comprising the city of Madras, Nellore, Chinglepet, North and South Arcot and the Tamil speaking areas of Chittoor district. It had some 80,000 members, with 120 presbyters. It was second only to the Diocese of Tinnevell in staff and membership. But the fact that this was Diocese that had inherited congregations from all the uniting traditions made it the all neighbouring eyes to see how the Union was going to be manifested in Unity.
+        </p>
 </div>
-<div class="membership">
-    <h1  id="membership">Get a Membership to be a part of this church.Hurry up!</h1>
+<div class="join" id="join">
+    <div class="title3">
+        <h2>Join Our Church</h2>
+    </div>
+    <form action="https://api.web3forms.com/submit" method="POST" class="form1" id="joined">
+        <div class="name">
+            <label>Name</label>
+            <input type="text" required autocomplete="off">
+        </div>
+        <div class="member">
+            <label>Member count</label>
+            <input type="number" required autocomplete="off">
+        </div>
+        <div class="mobile">
+            <label>Mobile number </label>
+            <input type="tel" minlength="11" required autocomplete="off">
+        </div>
+        <div class="sub">
+            <input type="submit" value="Join" onclick="join()">
+        </div>
+    </form>
 </div>
-<form>
-<div class="box">
-    <h1>Membership Form</h1>
-    <div class="register">
-<label for="name">Name </label><input type="text" placeholder="your_name" autocomplete="off">
+<div class="events" id="events">
+    <div class="title4">
+        <h2>Events occured for the past 14 years</h2>
+    </div>
+    <img src="s1.jpg" class="pictures one">
+    <img src="s2.jpg" class="pictures one">
+    <img src="s3.jpg" class="pictures one">
+    <img src="s5.jpg" class="pictures one">
+    <img src="s6.jpg" class="pictures one">
+    <img src="s7.jpg" class="pictures one">
+    <img src="s8.jpg" class="pictures one">
+    <img src="s9.jpg" class="pictures one">
+    <img src="s10.jpg" class="pictures one">
+    <img src="s11.jpg" class="pictures one">
+    <img src="s12.jpg" class="pictures one">
+    <img src="s13.jpg" class="pictures one">
+    <img src="s14.jpg" class="pictures one">
+    <img src="s15.jpg" class="pictures one">
+    <img src="s16.jpg" class="pictures one">
+    <img src="s17.jpg" class="pictures one">
 </div>
-<div class="register">
- <label for="email">Email</label><input type="email" placeholder="your_email" autocomplete="off" >
+<div class="contact" id="contact">
+<div class="title5">
+    <h2>Contact Us</h2>
 </div>
- <div class="register">
-<label for="members">Members</label><input type="number" placeholder="members" autocomplete="off" >
+<form action="https://api.web3forms.com/submit" method="POST" class="form2">
+<div class="det1">
+    <input type="text" placeholder="Your Name" required autocomplete="off">
 </div>
-<div class="register">
-    <label for="phno">Phone no</label> <input type="tel" placeholder="your_phno" maxlength="11" autocomplete="off">
+<div class="det2">
+    <input type="email" placeholder="Your Email" required autocomplete="off">
 </div>
-    <button onclick="confirm()">Confirm</button>
+<div class="det3">
+    <input type="tel" maxlength="10" placeholder="Your Mobile Number" required autocomplete="off">
+</div>
+<div class="det4">
+<textarea rows="7" placeholder="Your Text" required autocomplete="off"></textarea>
+</div>
+<div class="det5">
+    <input type="submit" value="Send" onclick="contact()">
 </div>
 </form>
-<div class="events" id="Events">
-    <h1>Events Organised for the past 13 years</h1>
-    <img src="s1.jpg">
-    <img src="s2.jpg">
-    <img src="s3.jpg">
-    <img src="s8.jpg">
-    <img src="s5.jpg">
-    <img src="s6.jpg">
-    <img src="s7.jpg">
-    <img src="s9.jpg">
-    <img src="s10.jpg">
-    <img src="s11.jpg">
-    <img src="s12.jpg">
-    <img src="s13.jpg">
-    <img src="s14.jpg">
-    <img src="s15.jpg">
-    <img src="s16.jpg">
-    <img src="s17.jpg">
-    </div>
-    <div class="contact" id="contact-us">
-        <h1>Contact us</h1>
-        <h4>phone-number :</h4> <p>+91 4427428615</p>
-        <h4>Address      :</h4> <p> Kanchipuram high road , Balaji Nagar , Athur , Chengalpet.</p>
-        <h3>If any queries kindly contact to Madras CSI Diocese through Mail</h3>
-        <a href="diocese@csimadrasdiocese.org">diocese@csimadrasdiocese.org</a>
-    </div>
+</div>
+<div class="copyrights">
+    <div class="title6">
+    <h3>Copyrights @ 2024 . All Rights reserved .</h3>
+</div>
+<h3 class="title7">Quick Navigation</h3>
+<div class="quick-links">
+    <a href="#about">About</a>
+    <a href="#join">Join</a>
+    <a href="#events">Events</a>
+    <a href="#contact">Contact</a>
+</div>
+<h3 class="title8">Dial us to know more</h3>
+<div class="dial">
+    <h4>Address:J C K Nagar, Chengalpattu, Tamil Nadu 603002, India</h4>
+    <h4>Phone:+914427428615</h4>
+</div>
+</div>
+</div>
 </body>
 <script src="script.js"></script>
 </html>
